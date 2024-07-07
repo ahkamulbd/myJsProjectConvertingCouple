@@ -1,0 +1,36 @@
+section {
+    width: 550px;
+    margin: 50px auto;
+}
+
+h1 {
+    color: blue;
+    text-align: center;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+h3 {
+    color: orange;
+    font-size: 30px;
+}
+
+#sitting-para {
+    color: purple;
+    text-align: justify;
+    font-size: 20px;
+}
+
+#order-btn-div {
+    text-align: center;
+}
+
+#order-btn {
+    margin: 0 10px;
+    padding: 10px 20px;
+    background-color: blue;
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    border-radius: 5px;
+}
