@@ -9,12 +9,20 @@ function clickToSeeTheOrder() {
     showOrder = document.getElementById('show-order');
     showOrder.innerText = besideMenWomenInt;
 
+    return besideMenWomenInt;
 }
-const movieLength = '100';
-const currentGoneAt = '89';
-const currentCameOnAt = '90';
-const minusPortion = movieLength + currentGoneAt + currentCameOnAt;
-const minusPortionInt = parseInt(minusPortion);
-// console.log(minusPortionInt);
-const result = besideMenWomenInt - minusPortionInt;
-console.log(result);
+
+document.getElementById('what-happened-btn').addEventListener('click', () => {
+    // console.log('Click event added');
+    const outputOfClickToSeeTheOrder = clickToSeeTheOrder();
+    const movieLength = '100';
+    const currentGoneAt = '89';
+    const currentCameOnAt = '90';
+    const minusPortion = movieLength + currentGoneAt + currentCameOnAt;
+    const minusPortionInt = parseInt(minusPortion);
+    // console.log(minusPortionInt);
+    const result = outputOfClickToSeeTheOrder - minusPortionInt;
+    console.log(result);
+    const showWhatHappened = document.getElementById('show-what-happened');
+    showWhatHappened.innerText = result;
+})
