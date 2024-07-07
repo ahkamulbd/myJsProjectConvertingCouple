@@ -34,3 +34,11 @@ h3 {
     font-weight: 700;
     border-radius: 5px;
 }
+
+#show-order {
+    text-align: center;
+    color: blueviolet;
+    font-size: 25px;
+    font-weight: 700;
+    letter-spacing: 10px;
+}
